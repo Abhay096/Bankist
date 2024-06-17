@@ -1,0 +1,63 @@
+.beforeloginnav p {
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(53, 52, 52);
+    text-align: center;
+    padding: 0%;
+}
+
+.beforeloginnav img {
+    padding: 0%;
+}
+
+#loginusername {
+    border-radius: 50px;
+    text-align: center;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+#loginpin {
+    width: 70px;
+    border-radius: 50px;
+    text-align: center;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+#loginbtn {
+    border-radius: 50px;
+    width: 50px;
+    border: 0px;
+}
+
+#logoimg {
+    height: 53px;
+    width: 53px;
+}
+
+#parent_login {
+    text-align: right;
+}
+
+@media (min-width: 425px) and (max-width: 678px) {
+    #logoimg {
+        height: 43px;
+        width: 43px;
+    }
+}
+
+@media (max-width: 767px) {
+    #parent_greeting {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #parent_login {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
